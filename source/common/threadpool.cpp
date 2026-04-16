@@ -913,7 +913,7 @@ int ThreadPool::configureTmeThreadCount(x265_param* param, int cpuCount)
         }
     }
 
-    bool isHighFreq = (getCPUFrequencyMHz() > 1500.0);
+    bool isHighFreq = (getCPUFrequencyMHz() > 2000.0);
 
     if (selectedRule >= 0)
     {
